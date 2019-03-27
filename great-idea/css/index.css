@@ -63,4 +63,115 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 900px;
+	margin: auto;	
+}
+
+header .logo {
+	margin-left: 140px;
+}
+
+header  {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 0 20px;
+}
+
+
+
+.main-content {
+	margin: 50px auto;
+	width: 900px;
+	border: 2px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+	justify-content: center;
+}
+
+.main-content .item1 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	background: lightgray;
+}
+
+.main-content .item2 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	background: lightgray;
+}
+
+.main-content .item3 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	background: lightgray;
+
+}
+
+.main-content .item4 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	background: lightgray;
+
+}
+
+.main-content .item5 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	background: lightgray;
+
+}
+
+.main-content .item6 {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	background: lightgray;
+
+}
+
+.bottom-content {
+	display: flex;
+	
+	border: 2px solid blue;
+	
+}
+
+.top-container {
+	width: 900px;
+	border: 2px solid red;
+	display: flex;
+	justify-content: center;
+}
+
+.top_content {
+	width: 700px;
+	border: 2px solid blue;
+
+}
+
+.bottom-content div {
+	display: flex;
+	flex-direction: column;
+
+}
+
+footer {
+	text-align: center;
+}
